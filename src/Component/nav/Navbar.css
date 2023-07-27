@@ -1,0 +1,36 @@
+div.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 20px 113px ;
+    align-items: center;
+    width: 1198.688;
+    font-size: 20px;
+}
+.aside-1, .same1 > a{
+    display: flex;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+    color: #2F2B37;
+}
+.aside-2{
+    display: flex;
+    gap: 32px;
+
+}
+.signup-btn > button{
+    display: flex;
+    padding: 16px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0px;
+    border-radius: 2000px;
+    color: white;
+    background: #5200FF;
+    cursor: pointer;
+}
+.login-btn{
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    align-items: flex-start;
+    gap: 10px;
+}
