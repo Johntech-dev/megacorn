@@ -6,7 +6,6 @@ const Sectionhead = () => {
   const [showLauchmodal, setshowLauchmodal] = useState(false)
 
   return (
-    <div className='attribute'>
     <div className='header'>
       <div className='header-text1'>
         <h1 className='headtext'>Find and launch <mark className='blue'>digital</mark></h1>
@@ -16,7 +15,6 @@ const Sectionhead = () => {
       <button type='button' className='btn-1' onClick={() => {setshowLauchmodal(true)}}>Lauch my Products</button>
       <button type='button' className='btn-2'>Explore Product</button>
     </div>
-      </div>
       </div>
     {
             showLauchmodal &&
