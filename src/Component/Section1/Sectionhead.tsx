@@ -14,7 +14,7 @@ const Sectionhead = () => {
                         
                         
     }}>
-      <img  className='Star' src='Star 1.png'></img>
+      <img  className='Star' alt='' src='Star 1.png'></img>
       <div className='header-text1'>
         <h1 className='headtext'>Find and launch <mark className='blue'>digital</mark></h1>
         <h1 className='headtext'><mark className='blue'>Products</mark> for Africa</h1>
