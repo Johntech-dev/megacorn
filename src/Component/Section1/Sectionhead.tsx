@@ -6,7 +6,15 @@ const Sectionhead = () => {
   const [showLauchmodal, setshowLauchmodal] = useState(false)
 
   return (
-    <div className='header'>
+    <div className='header' style={{
+                        backgroundImage: 'url(Vector.png)',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: '750px',
+                        height: '500px'
+                        
+                        
+    }}>
+      <img  className='Star' src='Star 1.png'></img>
       <div className='header-text1'>
         <h1 className='headtext'>Find and launch <mark className='blue'>digital</mark></h1>
         <h1 className='headtext'><mark className='blue'>Products</mark> for Africa</h1>

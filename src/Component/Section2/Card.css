@@ -25,8 +25,8 @@ h6.Card-text {
     margin-top: 25px;
 } */
 .cards{
-    width: 220px;
-    height: 200px;
+    width: 280px;
+    height: 220px;
     flex-shrink: 0;
     border: 1px solid #F7F3FF;
     border-radius: 22px;
