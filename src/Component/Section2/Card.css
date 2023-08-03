@@ -39,3 +39,15 @@ h5.Card-title{
 h6.Card-text{
     margin-top: 30px;
 }
+@media only screen and (max-width: 600px){
+    .cards{
+       margin-left: 100px;
+    }
+    h5.Card-title{
+        margin-top: 20px;
+        font-size: large;
+    }
+    h6.Card-text{
+        margin-top: 30px;
+    }
+}

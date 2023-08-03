@@ -48,3 +48,25 @@ img.Star {
     margin-left: 370px;
     margin-bottom: 30px;
 }
+img.polygon {
+    margin-left: 250px;
+}
+@media only screen and (max-width: 600px){
+    .header{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+        /* margin-bottom: 220px; */
+    }
+    p.sub-text{
+        font-size: 20px;
+        line-height: 120%;
+        margin-top: 10px;
+    }
+    h1.headtext{
+        line-height: 120%;
+        font-size: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

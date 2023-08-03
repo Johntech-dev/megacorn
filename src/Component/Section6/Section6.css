@@ -1,0 +1,28 @@
+.Section6-container{
+    display: flex;
+    align-items: center;
+    gap: 54;
+}
+.Section6-video{
+ margin-top: 80px;
+ margin-bottom: 40px;
+ align-items: center;
+ margin-left: 350px;   
+}
+img.Video{
+    width: 220px;
+}
+.Section6-text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 70px;
+}
+h4.h4-text1{
+    font-size: 20px;
+}
+p.p-text2{
+    font-size: 15px;
+    line-height: 32px;
+}

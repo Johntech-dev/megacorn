@@ -1,0 +1,62 @@
+.Section4-card{
+display: inline-flex;
+padding: 33px 44px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 16px;
+background: #F7F3FF;
+margin-left: 130px;
+margin-top: 20px;
+}
+.Section4-card1{
+display: flex;
+width: 950px;
+justify-content: space-between;
+align-items: center;
+}
+h3.Card-text{
+color: #051329;
+font-family: Outfit;
+font-size: 38px;
+font-style: normal;
+font-weight: 200;
+line-height: 120%; /* 57.6px */
+}
+p.Card-text1{
+width: 500px;
+color: #051329;
+font-family: Outfit;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 30px */
+}
+.button-text{
+display: flex;
+padding: 16px 24px;
+align-items: flex-start;
+gap: 10px;
+margin-top: 10px;
+}
+button.Section4-button{
+    border: 0;
+    border-radius: 2000px;
+    background-color: #9747ff;
+    height: 30px;
+    color: white;
+    padding: 10px;
+}
+.button-link{
+    color: #9747FF;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 10px;
+}
+.polygon{
+    display: flex;
+}

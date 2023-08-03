@@ -22,6 +22,7 @@ const Sectionhead = () => {
         <div className='btn'>
       <button type='button' className='btn-1' onClick={() => {setshowLauchmodal(true)}}>Lauch my Products</button>
       <button type='button' className='btn-2'>Explore Product</button>
+      <img className='polygon' src='Polygon 1 (1).png' alt='' />
     </div>
       </div>
     {
