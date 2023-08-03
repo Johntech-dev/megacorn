@@ -15,12 +15,12 @@ const Navbar = () => {
       </div>
       <div className='aside-2'>
       <div className='login-btn'>Login</div>
-      <div className='signup-btn'><button type='button' onClick={() => {setshowSignupmodal(true) }}>Signup</button></div>
+      <div className='signup-btn'><button type='button' onClick={() => {setshowSignupmodal(true) }} >Signup</button></div>
       </div>
 
           {
             showSignupmodal &&
-            <Signupmodal onClose={() => {setshowSignupmodal(false) }}/>
+            <Signupmodal onClose={() => {setshowSignupmodal(false) }} />
           }
 
     </div>
