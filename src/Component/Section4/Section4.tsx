@@ -14,7 +14,7 @@ const Section4 = () => {
         </div>
         </div>
         <div>
-            <img src='Vector1.png' alt='' />
+            <img className='vector' src='Vector1.png' alt='' />
         </div>
         </div>
         </div>

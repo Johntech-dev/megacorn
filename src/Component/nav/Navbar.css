@@ -1,3 +1,6 @@
+*{
+   background-color: var(--primary-color);
+}
 div.nav{
     display: flex;
     justify-content: space-between;
@@ -5,12 +8,14 @@ div.nav{
     align-items: center;
     width: 1198.688;
     font-size: 20px;
+    background-color: var(--primary-color);
 }
 .aside-1, .same1 > a{
     display: flex;
     padding: 0px 15px 0px 15px;
     text-decoration: none;
-    color: #2F2B37;
+    color: var(--text-color);
+    background-color: var(--primary-color);
 }
 .aside-2{
     display: flex;
@@ -24,13 +29,22 @@ div.nav{
     gap: 10px;
     border: 0px;
     border-radius: 2000px;
-    color: white;
-    background: #5200FF;
-    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--btnnav-color) ;
+    cursor: pointer;;
 }
 .login-btn{
     display: flex;
     padding: 10px 0px 10px 0px;
     align-items: flex-start;
     gap: 10px;
+    color: var(--text-color);
+}
+.moon{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    border: 0;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }

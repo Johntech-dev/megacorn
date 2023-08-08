@@ -1,48 +1,81 @@
+
 .header{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 90px;
     font-size: 20px;
+    background: url(/public/Vector.png);
+    background-color: transparent;
+    
+
     /* margin-bottom: 220px; */
+    /* background-image: url(/public/Vector.png); */
+}
+.dark-theme{
+    .header{
+        text-align: center;
+        margin-top: 90px;
+        font-size: 20px;
+        background: url(/public/Vector1\ \(1\).png);
+        background-color: transparent;
+        
+    
+        /* margin-bottom: 220px; */
+        /* background-image: url(/public/Vector.png); */
+    }
+}
+.header-text1{
+    background-color: transparent;
+}
+.btn{
+    background-color: transparent;
 }
 mark.blue{
-    color: #5200FF;
-    background: none;
+    color: var(--asidetext-color);
+    background-color: transparent;
 }
 p.sub-text{
     font-size: 20px;
     line-height: 150%;
+    color: var(--text-color);
+    text-align: center;
+    background-color: transparent;
 }
 h1.headtext{
     line-height: 120%;
     font-size: 60px;
+    color: var(--text-color);
+    text-align: center;
+    background-color: transparent;
 }
 button.btn-1{
     border: 0;
-    background: yellow;
+    background: var(--btn-color);
     border-radius: 3000px;
         margin-top: 30px;
         margin-right: 30px;
     /* padding: 15px; */
     height: 50px;
     width: 200px;
+    /* background-color: transparent; */
 }
 
 button.btn-2{
-    border: 1px solid #5200FF;
+    border: 1px solid var(--btnnav-color);
     border-radius: 3000px;
     /* padding: 15px; */
-    color: #5200FF;
+    color: var(--asidetext-color);
     height: 50px;
     width: 200px;
+    background-color: transparent;
 }
 button.btn-2:hover{
-    border: 1px solid #5200FF;
+    border: 1px solid var(--btn-color);
     border-radius: 3000px;
     /* padding: 15px; */
     color: white;
     height: 50px;
     width: 200px;
-    background-color: #5200FF ;
+    background-color: var(--btn1-color) ;
 }
 img.Star {
     margin-left: 370px;
@@ -50,23 +83,4 @@ img.Star {
 }
 img.polygon {
     margin-left: 250px;
-}
-@media only screen and (max-width: 600px){
-    .header{
-        text-align: center;
-        margin-top: 10px;
-        font-size: 10px;
-        /* margin-bottom: 220px; */
-    }
-    p.sub-text{
-        font-size: 20px;
-        line-height: 120%;
-        margin-top: 10px;
-    }
-    h1.headtext{
-        line-height: 120%;
-        font-size: 50px;
-        margin-bottom: 10px;
-        text-align: center;
-    }
 }

@@ -28,26 +28,22 @@ h6.Card-text {
     width: 280px;
     height: 220px;
     flex-shrink: 0;
-    border: 1px solid #F7F3FF;
+    border: 1px solid var(--card1-color);
     border-radius: 22px;
-    background-color: #F7F3FF;
+    background-color: var(--card1-color);
 }
 h5.Card-title{
     margin-top: 20px;
     font-size: large;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    background-color: var(--card1-color);
 }
 h6.Card-text{
     margin-top: 30px;
+    color: var(--text-color);
+    background-color: var(--card1-color)
 }
-@media only screen and (max-width: 600px){
-    .cards{
-       margin-left: 100px;
-    }
-    h5.Card-title{
-        margin-top: 20px;
-        font-size: large;
-    }
-    h6.Card-text{
-        margin-top: 30px;
-    }
+.img{
+    background-color: var(--card1-color);
 }

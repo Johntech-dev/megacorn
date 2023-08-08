@@ -93,64 +93,13 @@ line-height: 150%; /* 24px */
            flex-shrink: 0;
            justify-content: center;
            margin-bottom: 30px;
+           margin-left: 150px;
+           background-color: var(--light-color);
         }
         .container5>img{
             width: 400px;
             flex-shrink: 0;
         }
         @media only screen and (max-width: 600px) {
-            .container1{
-                display: block;
-                align-items: center;
-                margin-left: 80px;
-            }
-            h3.heade1{
-                color: #988fad;
-                text-align: center;
-                font-family: Outfit;
-                font-size: 15px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 100%; /* 28.8px */
-                }
-                p.heade2{
-                    width: 350px;
-                    color: #988fad;
-                    font-family: Outfit;
-                    font-size: 12px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 150%; /* 24px */
-                    }
-                    h3.header1{
-                        color: #17102B;
-                        text-align: center;
-                        font-family: Outfit;
-                        font-size: 15px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 100%; /* 28.8px */
-                        }
-                        p.header2{
-                        width: 350px;
-                        color: #4E4566;
-                        font-family: Outfit;
-                        font-size: 12px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 150%; /* 24px */
-                        }
-                        .container5{
-                            width: 20%;
-                           height: 380px;
-                           flex-shrink: 0;
-                           justify-content: center;
-                           margin-bottom: 30px;
-                        }
-                        .container5>img{
-                            width: 400px;
-                            flex-shrink: 0;
-                            margin-right: 35px;
-                            margin-top: 20px;
-                        }
+            
         }

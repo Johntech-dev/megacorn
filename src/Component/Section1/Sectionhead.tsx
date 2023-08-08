@@ -5,15 +5,26 @@ import Lauchmodal from '../Lauchproducts/Lauchmodal';
 const Sectionhead = () => {
   const [showLauchmodal, setshowLauchmodal] = useState(false)
 
+
+  const sectionStyle = {
+    backgroundImage: "url('path/to/your/image.jpg')",
+    backgroundSize: "500px",
+    backgroundPosition: "center",
+    color: "white",
+    textAlign: "center",
+    padding: "100px 0",
+};
+
   return (
-    <div className='header' style={{
-                        backgroundImage: 'url(Vector.png)',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundSize: '750px',
-                        height: '500px'
-                        
-                        
-    }}>
+     <div className='header' style={{
+      // backgroundImage: 'url(Vector.png)',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: '850px',
+      textAlign: "center",
+      height: '550px',
+     
+      
+     }}>
       <img  className='Star' alt='' src='Star 1.png'></img>
       <div className='header-text1'>
         <h1 className='headtext'>Find and launch <mark className='blue'>digital</mark></h1>

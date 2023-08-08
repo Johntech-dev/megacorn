@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --primary-color: #ffff;
+  --btn-color: #FFB800;
+  --btn1-color: #5200ff;
+  --text-color: #2f2b37;
+  --btnnav-color: #5200ff;
+  --light-color: #F7F3FF;
+  --dark-color: #985ce6;
+  --asidetext-color: #5200ff;
+  --asidebtn-color: #9747ff;
+  --card-color: #E5D7FF;
+  --card1-color:#f7f3ff;
+  --border-color: #F7F3FF;
+  --borderback-color: #F7F3FF;
+  --Card2-color: #F7F3FF;
+  --background-image: url(/public/Vector.png);
 }
+.dark-theme{
+  --primary-color: #0A021C;;
+  --btn-color: #FFB800;
+  --btn1-color: #5200ff;
+  --text-color: #fff;
+  --btnnav-color: #FFB800;
+  --light-color: #0a021c;
+  --dark-color: #A6B2C4;
+  --asidetext-color: #fff;
+  --asidebtn-color: #FFB800;
+  --card-color: #2f234b;
+  --card1-color: #18102B;
+  --border-color: #433369;
+  --borderback-color: #18102B;
+  --Card2-color: #0a021c;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

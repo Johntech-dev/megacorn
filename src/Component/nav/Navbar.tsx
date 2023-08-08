@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Navbar.css'
 import Signupmodal from '../SignupModal/Signupmodal'
+import {BiSolidMoon} from 'react-icons/bi';
 
 const Navbar = () => {
     const  [showSignupmodal, setshowSignupmodal] = useState(false);
@@ -16,6 +17,10 @@ const Navbar = () => {
       <div className='aside-2'>
       <div className='login-btn'>Login</div>
       <div className='signup-btn'><button type='button' onClick={() => {setshowSignupmodal(true) }} >Signup</button></div>
+      
+      <div className='dark-lightmode'>
+      <button className='moon'  onClick={() => {document.body.classList.toggle('dark-theme')}}><BiSolidMoon /></button>
+      </div>
       </div>
 
           {

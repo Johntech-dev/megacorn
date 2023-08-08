@@ -37,7 +37,7 @@ const Section3 = () => {
      </div>
      </div>
      <div className='container5'>
-      <img  src='step 4.png' alt=''></img>
+      <img className='vector' src='step 4.png' alt=''></img>
      </div>
     </div>
     </section>

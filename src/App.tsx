@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Navbar from './Component/nav/Navbar';
 import Sectionhead from './Component/Section1/Sectionhead';
 import Sectionbody from './Component/Section2/Sectionbody';
@@ -8,6 +9,7 @@ import Section5 from './Component/Section5/Section5';
 import Section6 from './Component/Section6/Section6';
 import Section7 from './Component/Section7/Section7';
 function App() {
+
   return (
     <div>
       <Navbar />

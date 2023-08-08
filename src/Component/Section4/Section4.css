@@ -5,32 +5,35 @@ flex-direction: column;
 align-items: flex-start;
 gap: 10px;
 border-radius: 16px;
-background: #F7F3FF;
-margin-left: 130px;
-margin-top: 20px;
+background: var(--light-color);
+margin-left: 150px;
+margin-top: 30px;
 }
 .Section4-card1{
 display: flex;
-width: 950px;
+width: 1050px;
+height: 300px;
 justify-content: space-between;
 align-items: center;
 }
 h3.Card-text{
-color: #051329;
+color: var(--text-color);
 font-family: Outfit;
 font-size: 38px;
 font-style: normal;
 font-weight: 200;
 line-height: 120%; /* 57.6px */
+margin-left: 10px;
 }
 p.Card-text1{
 width: 500px;
-color: #051329;
+color:  var(--text-color);
 font-family: Outfit;
-font-size: 12px;
+font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 150%; /* 30px */
+margin-left: 10px;
 }
 .button-text{
 display: flex;
@@ -42,13 +45,13 @@ margin-top: 10px;
 button.Section4-button{
     border: 0;
     border-radius: 2000px;
-    background-color: #9747ff;
+    background-color: var(--asidebtn-color);
     height: 30px;
-    color: white;
+    color: var(--light-color);
     padding: 10px;
 }
 .button-link{
-    color: #9747FF;
+    color: var(--text-color);
     font-family: Outfit;
     font-size: 16px;
     font-style: normal;
@@ -59,4 +62,7 @@ button.Section4-button{
 }
 .polygon{
     display: flex;
+    color: var(--text-color);
+}
+@media only screen and (max-width: 800px) {
 }
